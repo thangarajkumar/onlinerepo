@@ -50,7 +50,7 @@ public void run() {
     	String skill=rs2.getString("skill_name");
     	
 		Thread.sleep(50000);		
-		String request = "https://www.google.com/search?q=" + skill+".pdf &num=1000";
+		String request = "https://www.google.com/=" + skill+".pdf &num=1000";
 		System.out.println("Sending request..." + request);
 		   try {
 			   
